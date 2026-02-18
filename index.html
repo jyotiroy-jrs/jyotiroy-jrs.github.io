@@ -1,5 +1,86 @@
-<html>
-    <h1>
-        Jyoti Roy
-    </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                Jyoti Roy
+                <!-- <img src="images/pp.jpg" alt="Jyoti Roy" class="profile-pic"> -->
+            </div>
+
+            <div class="hamburger" id="hamburger">☰</div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+  <!-- Hero -->
+  <header class="home" id="home">
+    <div class="home-base">
+        <div class="home-left">
+            <img src="images/pp.jpg" alt="Jyoti Roy" class="profile-pic">
+            <h1 class="main-name">Jyoti Roy</h1>
+            <p class="degic">Freelance VR Game Developer</p>
+            <p class="market">Fiverr</p>
+            <div class="profiles">
+                <a href="https://google.com"><img src="images/gs.jpg" alt="google scholar"></a>
+                <a href="https://google.com"><img src="images/ln.avif" alt="linkedin"></a>
+                <a href="https://google.com"><img src="images/fv.jpg" alt="fiverr"></a>
+            </div>
+            <a href="#projects" class="btn">Curriculum Vitae</a>
+        </div>
+        <div class="home-right">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p>Developer • Researcher • Creator</p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+    </div>
+    
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>A short paragraph about who you are and what you do.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section gray">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">Project 1</div>
+      <div class="project-card">Project 2</div>
+      <div class="project-card">Project 3</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+  </section>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
 </html>
