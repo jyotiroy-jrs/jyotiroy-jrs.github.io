@@ -96,9 +96,14 @@ body {
     display: flex;
 }
 
+/* .home-left, .home-right {
+    flex: 1 1 300px;
+} */
+
 .home-left{
-    width: 40%;
-    display: flex;             /* turn div into flex container */
+    /* width: 40%; */
+    display: flex; 
+    flex: 0 0 40%;            /* turn div into flex container */
     flex-direction: column;    /* stack items vertically */
     justify-content: center;   /* vertical center */
     align-items: center;
@@ -106,13 +111,72 @@ body {
 }
 
 .home-right{
-    width: 60%;
+    /* width: 60%; */
+    display: flex;
+    flex: 0 0 60%;
     background: linear-gradient(135deg, #F0F8FC, #FCF7F0);
-    background-image: url('images/cvr1.png');
-    background-size: cover;
-    background-position: center;
+    /* background-image: url('images/cvr1.png');
+    background-size: auto;
+    background-position: center; */
+    flex-direction: column;    /* stack items vertically */
+    justify-content: center;   /* vertical center */
+    /* align-items: center; */
+}
+.a1{
+  text-align: left;
+  color: #1422e0;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+.a2{
+  text-align: left;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 20%;
+}
+.a3{
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 20%;
+  color: #5f5f5f;
+}
+.a4{
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+    .home-base {
+        flex-direction: column;
+    }
+    .home{
+      height: fit-content;
+    }
+    .home-left,
+    .home-right {
+        flex: 0 0 100%;
+        height: 1000px;
+    }
+    .a1, .a2, .a3, .a4{
+      margin-left: 10%;
+    }
+    .a2{
+      font-size: 40px;
+    }
+    .a3{
+      font-size: 30px;
+    }
+    .a4{
+      margin-right: 10%;
+    }
+    
+}
 
 .profile-pic {
   width: 120px;
@@ -120,7 +184,8 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid rgb(255, 255, 255);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  margin-top: 50px;
 }
 
 .main-name{
@@ -175,6 +240,7 @@ body {
   color: white;
   border-radius: 4px;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 
 /* ===== Sections ===== */
