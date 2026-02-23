@@ -151,12 +151,14 @@ body {
     font-weight: 600;
 }
 .market{
-    margin: 0px;
+    margin: 2px;
     text-decoration: none;
-    color: rgb(65, 65, 65);
+    color: rgb(20, 153, 177);
     font-size: medium;
 }
-
+.home-left a{
+    text-decoration: none; 
+}
 .profiles{
     margin-top: 10px;
     margin-bottom: 30px;
@@ -234,7 +236,7 @@ body {
 
 
 .education {
-  background: linear-gradient(135deg, #F2F8FD, #F8EDFC);
+  background: linear-gradient(90deg, #F8EDFC, #FCF7F0);
 }
 
 .edu-back{
@@ -282,10 +284,11 @@ body {
 .background{
   margin-bottom: 0px;
   text-align: justify;
+  line-height: 1.6;
 }
 
 .skills {
-  background: linear-gradient(135deg, #f6fdf2, #fcfaed);
+  background: linear-gradient(135deg, #f2fdf3, #fcf9ed);
 }
 
 .skill-set {
@@ -313,6 +316,9 @@ body {
   vertical-align: top; 
 }
 
+.research {
+  background: linear-gradient(135deg, #f4f2fd, #fcf9ed);
+}
 
 .research h2 {
   margin-top: 0px;
@@ -383,11 +389,16 @@ body {
 /* ===== Projects ===== */
 
 .projects {
-  margin-left: 20%;
-  margin-right: 20%;
+  background: linear-gradient(135deg, #f2fcfd, #edfcef);
 }
 
-.projects h2 {
+.project-area {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.project-area h2 {
   margin-top: 0px;
   text-decoration: underline;
   font-size: xx-large;
@@ -408,6 +419,54 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+
+.exp{
+  background: linear-gradient(135deg, #fdf4f2, #fcfced);
+
+}
+
+.awrd-desc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.contacts{
+  background-color: #383838;
+}
+.contacts-area{
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100vh;
+  display: flex;            /* turn div into flex container */
+  flex-direction: column;    /* stack items vertically */
+  justify-content: center;   /* vertical center */
+  align-items: center;
+}
+
+.contacts-area h2 {
+  margin-top: 0px;
+  text-decoration: underline;
+  font-size: xx-large;
+  text-align: center; 
+  color: white; 
+}
+
+.contacts-area h2 {
+  color: white; 
+
+}
+
+.contacts-area a {
+  color: white; 
+  text-decoration: none;
+}
+
+.contacts p{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
     .home-base {
@@ -446,7 +505,11 @@ body {
       margin-left: 10%;
       margin-right: 10%;
     }
-    .projects{
+    .project-area{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .contacts-area{
       margin-left: 10%;
       margin-right: 10%;
     }
