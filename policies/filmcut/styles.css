@@ -1,0 +1,157 @@
+/* FilmCut privacy policy: local assets, system fonts, no scripts or tracking. */
+:root {
+  color-scheme: light;
+  --page: #fafbf9;
+  --paper: #ffffff;
+  --ink: #17252b;
+  --body: #46535b;
+  --muted: #637078;
+  --line: #dfe6e2;
+  --accent: #087d78;
+  --mint: #c5f4df;
+  --dark: #111b22;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+body { margin: 0; background: var(--page); color: var(--body); font-size: 16px; line-height: 1.75; -webkit-text-size-adjust: 100%; }
+a { color: var(--accent); text-underline-offset: 4px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 3px; }
+svg { display: block; width: 100%; height: 100%; }
+p { margin: 0 0 18px; }
+strong { color: var(--ink); font-weight: 650; }
+.page-width { width: min(1120px, calc(100% - 80px)); margin-inline: auto; }
+.skip-link { position: absolute; top: 10px; left: 12px; z-index: 2; padding: 8px 14px; color: var(--ink); background: var(--mint); transform: translateY(-160%); }
+.skip-link:focus { transform: translateY(0); }
+.site-header { background: var(--dark); color: white; }
+.header-inner { width: min(1240px, calc(100% - 80px)); min-height: 92px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: white; }
+.brand-mark { display: block; width: 43px; height: 43px; padding: 5px; border-radius: 12px; background: var(--mint); color: var(--dark); }
+.brand-name { display: block; font-size: 23px; font-weight: 750; letter-spacing: -.8px; line-height: 1.12; }
+.brand-byline { display: block; margin-top: 5px; color: #b8c6cd; font-size: 11px; font-weight: 450; letter-spacing: .45px; }
+.header-contact { display: inline-flex; gap: 17px; align-items: center; color: #e2f7ed; text-decoration: none; font-size: 13px; font-weight: 550; }
+.header-contact span { font-size: 22px; }
+.brand:focus-visible, .header-contact:focus-visible { outline-color: var(--mint); }
+.hero { padding-top: 73px; padding-bottom: 54px; }
+.eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 18px; color: var(--accent); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.7px; }
+.status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+h1 { margin: 0; font-size: clamp(42px, 6vw, 76px); font-weight: 750; line-height: 1.12; letter-spacing: -3px; color: var(--ink); }
+.title-dot { color: var(--accent); }
+.hero-description { max-width: 640px; margin-top: 24px; margin-bottom: 30px; font-size: 19px; line-height: 1.65; color: var(--muted); }
+.policy-meta { display: flex; flex-wrap: wrap; gap: 14px 40px; margin: 0; }
+.policy-meta div { display: flex; flex-direction: column; gap: 3px; }
+.policy-meta dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+.policy-meta dd { margin: 0; color: var(--ink); font-size: 13px; font-weight: 600; }
+.privacy-summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 45px; padding: 24px 0; border-block: 1px solid var(--line); }
+.privacy-summary > div { display: flex; align-items: flex-start; gap: 14px; padding-right: 20px; }
+.privacy-summary > div + div { border-left: 1px solid var(--line); padding-left: 27px; }
+.summary-icon { flex: 0 0 28px; margin-top: 2px; color: var(--accent); font-size: 12px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.privacy-summary p { margin: 0; line-height: 1.55; }
+.privacy-summary strong { display: block; margin-bottom: 4px; font-size: 14px; }
+.privacy-summary p > span { display: block; color: var(--muted); font-size: 12px; }
+.policy-layout { display: grid; grid-template-columns: 215px minmax(0, 1fr); column-gap: 65px; align-items: start; padding-bottom: 72px; }
+.contents { position: sticky; top: 32px; padding-top: 1px; }
+.contents-title { margin-bottom: 16px; color: var(--ink); font-size: 11px; font-weight: 700; letter-spacing: 1.25px; text-transform: uppercase; }
+.contents nav { display: flex; flex-direction: column; border-left: 1px solid var(--line); }
+.contents a { display: block; padding: 6px 0 6px 17px; color: var(--muted); text-decoration: none; font-size: 12px; line-height: 1.6; }
+.contents a:hover { color: var(--accent); background: #edf6f0; }
+.policy-content { min-width: 0; }
+.policy-section { margin-bottom: 37px; padding-bottom: 25px; border-bottom: 1px solid var(--line); }
+.section-number { margin-bottom: 9px; color: var(--accent); font-size: 10px; font-weight: 700; letter-spacing: 1.6px; line-height: 1.6; }
+h2 { margin: 0 0 18px; color: var(--ink); font-size: 25px; font-weight: 700; letter-spacing: -.7px; line-height: 1.3; }
+.policy-content p:last-child { margin-bottom: 0; }
+.key-note { margin-top: 23px; padding: 21px 24px; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: #eaf4ed; font-size: 15px; }
+.key-note strong { display: block; margin-bottom: 8px; }
+.data-list { margin: 22px 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--paper); }
+.data-list > div { display: grid; grid-template-columns: 158px minmax(0, 1fr); gap: 20px; padding: 20px; }
+.data-list > div + div { border-top: 1px solid var(--line); }
+.data-list dt { color: var(--ink); font-size: 14px; font-weight: 650; }
+.data-list dd { margin: 0; font-size: 14px; line-height: 1.7; }
+.choice-list { padding-left: 20px; margin-block: 21px; }
+.choice-list li { padding-left: 7px; margin-bottom: 13px; }
+.choice-list li::marker { color: var(--accent); }
+.contact-card { padding: 32px; border-radius: 16px; background: var(--dark); color: #c3cfd3; }
+.contact-card .section-number { color: var(--mint); }
+.contact-card h2 { color: #f4faf7; font-size: 30px; }
+.contact-card p { font-size: 15px; }
+.email-link { display: inline-block; margin: 4px 0 25px; color: var(--mint); font-size: clamp(16px, 2vw, 24px); font-weight: 600; line-height: 1.6; overflow-wrap: anywhere; }
+.email-link span { display: inline-block; margin-left: 8px; }
+.contact-card a:focus-visible { outline-color: var(--mint); }
+.contact-app { padding-top: 20px; border-top: 1px solid #33434a; }
+.contact-app strong { color: #f4faf7; }
+.package-name { color: #9bacb4; font-size: 12px; }
+.site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 25px 0 31px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.site-footer p { margin: 0; }
+.site-footer p > span { margin-inline: 9px; color: #aab6b2; }
+.site-footer a { color: var(--muted); text-decoration: none; }
+.site-footer a span { margin-left: 9px; }
+
+@media (max-width: 900px) {
+  .page-width, .header-inner { width: calc(100% - 48px); }
+  .policy-layout { grid-template-columns: 172px minmax(0, 1fr); column-gap: 35px; }
+  .privacy-summary > div { gap: 7px; padding-right: 10px; }
+  .privacy-summary > div + div { padding-left: 16px; }
+  .data-list > div { grid-template-columns: 1fr; gap: 6px; }
+}
+@media (max-width: 640px) {
+  body { font-size: 15px; line-height: 1.8; }
+  .page-width, .header-inner { width: calc(100% - 40px); }
+  .header-inner { min-height: 80px; gap: 12px; }
+  .brand-name { font-size: 21px; }
+  .brand-mark { width: 38px; height: 38px; border-radius: 10px; }
+  .header-contact { font-size: 11px; gap: 7px; }
+  .hero { padding-top: 43px; padding-bottom: 30px; }
+  h1 { font-size: clamp(36px, 10.2vw, 56px); letter-spacing: -1.9px; }
+  .hero-description { margin-top: 20px; margin-bottom: 25px; font-size: 16px; }
+  .policy-meta { gap: 17px 25px; }
+  .policy-meta div:last-child { flex-basis: 100%; }
+  .privacy-summary { grid-template-columns: 1fr; margin-top: 30px; padding: 8px 0; }
+  .privacy-summary > div { gap: 13px; padding: 14px 0; }
+  .privacy-summary > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+  .policy-layout { display: block; padding-bottom: 40px; }
+  .contents { position: static; margin-bottom: 34px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+  .contents-title { margin-bottom: 10px; }
+  .contents nav { display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; border-left: 0; }
+  .contents a { padding: 5px 0; font-size: 11px; }
+  h2 { font-size: 23px; }
+  .policy-section { margin-bottom: 28px; padding-bottom: 24px; }
+  .key-note { padding: 18px; font-size: 14px; }
+  .data-list > div { padding: 17px; }
+  .contact-card { padding: 25px 21px; }
+  .contact-card h2 { font-size: 27px; }
+  .site-footer { font-size: 11px; }
+}
+@media (max-width: 350px) {
+  .page-width, .header-inner { width: calc(100% - 32px); }
+  .brand { gap: 8px; }
+  .header-contact { gap: 4px; font-size: 10px; }
+  .contents nav { grid-template-columns: 1fr; }
+  .contact-card { padding: 22px 18px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media print {
+  @page { margin: 18mm; }
+  body { color: #222; background: white; font-size: 10pt; line-height: 1.6; }
+  .page-width, .header-inner { width: 100%; }
+  .site-header { color: #111; background: white; border-bottom: 1px solid #aaa; }
+  .header-inner { min-height: 60px; }
+  .brand, .brand-byline { color: #111; }
+  .brand-mark { color: #111; background: #eee; }
+  .header-contact, .contents, .skip-link, .site-footer a { display: none; }
+  .hero { padding: 24px 0; }
+  h1 { font-size: 32pt; }
+  .hero-description { font-size: 12pt; }
+  .privacy-summary { margin-top: 20px; padding: 15px 0; }
+  .policy-layout { display: block; padding-bottom: 10px; }
+  .policy-section { margin-bottom: 20px; padding-bottom: 15px; }
+  h2 { font-size: 15pt; break-after: avoid; }
+  .section-number { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .data-list > div, .contact-card { break-inside: avoid; }
+  .contact-card { color: #222; background: #f3f3f3; border: 1px solid #aaa; }
+  .contact-card h2, .contact-card strong, .contact-card .section-number, .email-link, .package-name { color: #222; }
+  .email-link { font-size: 14pt; }
+  .site-footer { padding-bottom: 0; }
+}
